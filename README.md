@@ -7,3 +7,6 @@
 
 https://github.com/user-attachments/assets/ab896d09-2701-4530-9a1f-755d923d99d8
 
+
+AWS APPLICATION URL : https://k8s.vaidhi.sbs
+
