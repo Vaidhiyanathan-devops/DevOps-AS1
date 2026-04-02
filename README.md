@@ -106,8 +106,8 @@ terraform apply -var-file="prod.tfvars"
 
 | Concern | Implementation |
 |---|---|
-| State backend | AWS S3 bucket (`pgagi-tfstate-<env>`) |
-| State locking | DynamoDB table (`pgagi-tf-lock`) |
+| State backend | AWS S3 bucket (`tfstate-<env>`) |
+| State locking | DynamoDB table (`tf-lock`) |
 | Env isolation | Separate S3 prefix per environment (`dev/`, `staging/`, `prod/`) |
 | Recovery | S3 versioning enabled — roll back to any prior state |
 
